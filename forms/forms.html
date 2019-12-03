@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <label for="first_name">Name:</label>
+        <input type="text" name="first_name" id="name" placeholder="your name"></br>
+        <label for="remember">Remember me</label>
+        <input type="checkbox" name="remember" id="remember"><br>
+        <fieldset>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked></br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"></br>
+        </fieldset>
+        <textarea name="" id="info" cols="30" rows="10" placeholder="additional information"></textarea></br>
+        <select name="" id="location">
+            <option value="buc">Bucuresti</option>
+            <option value="ny">New York</option>
+            <option value="par">Paris</option>
+        </select></br>
+        <progress value="50" max="100"></progress></br>
+        <meter min="0" max="100" low="25" high="75" optimum="50" value="50"></meter>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
