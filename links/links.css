@@ -1,0 +1,25 @@
+a  {
+    color: blue;
+    text-decoration: none;
+}
+a:link  {
+
+}
+a:visited  {
+    
+}
+a:hover  {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+.magic  {
+    display: none;
+    position: absolute;
+    top: 1em;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.dropdown:hover .magic  {
+    display: block;
+}
